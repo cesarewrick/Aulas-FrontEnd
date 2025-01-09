@@ -1,0 +1,23 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+caption{
+    color: red;
+    background-color: yellow;
+    border: 3px solid black;
+}
+
+.pai {
+    background-color: rgb(155, 155, 130);
+}
+
+td{
+    border: 3px  solid black
+
+}
+
+.filhao{
+    background-color: rgb(155, 155, 130);
+}

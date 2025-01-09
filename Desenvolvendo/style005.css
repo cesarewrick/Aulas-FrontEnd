@@ -1,0 +1,46 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* vw adapta a tela na vertical e o vh na horizontal */
+.pai{
+    width: 10vmax;
+    height: 100vh;
+    background: yellow;
+}
+
+p{
+    font-size: 3rem;
+}
+
+.pai3{
+    width: 100vw;
+    height: 100vh;
+    background: purple;
+}
+
+.pai4{
+    width: 100vw;
+    height: 100vh;
+    background: red;
+}
+
+.pai5{
+    width: 100vw;
+    height: 100vh;
+    background: green;
+}
+
+.pai6{
+    width: 100vw;
+    height: 100vh;
+    background: orange;
+}
+

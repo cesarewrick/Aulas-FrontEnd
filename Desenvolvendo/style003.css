@@ -1,0 +1,72 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* .heading{
+    transition: all 2s ease-in-out;
+}
+.heading:hover{
+    background-color: red;
+}
+
+a:link{
+    color: deeppink;
+}
+
+a:visited{
+    color: firebrick;
+}
+
+a:hover{
+    background-color: darkblue;
+    color:  white;
+    text-decoration: none;
+}
+
+a:active{
+    background-color: darkslategray;
+    color: white;
+    text-decoration: none;
+}
+
+p:active{
+    background-color: darkslategray;
+    color: white;
+    text-decoration: none;
+}
+
+input:focus{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
+}
+
+input:disabled{
+    background-color: purple;
+    cursor: not-allowed; 
+}
+
+input:checked + p{
+    width: 100px;
+    height: 50px;
+    color: red;
+} */
+
+/* .pai ul li:first-child{
+    background-color: red;
+}
+
+.pai ul li:nth-child(3){
+    background-color: orange;
+} */
+/* 
+.pai ul li:not(.meio){
+    background-color: yellow;
+} */
+/* odd(pega os pares) even(pega os impares) 3n (pinta a cada terceiro) se colocar 
++1 ele pinta o primeiro e depois 3 em 3 */
+ul li:nth-child(3n + 1){ 
+    background-color: darkorange;
+}
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#"method="GET">
+        <section>
+            <h1>Meu primeiro formulario</h1>
+            <p>Este é um formulário para falar sobre...</p>
+        </section>
+           <p>
+           <label for="nome">Nome</label>
+           <input type="text" id="nome" placeholder="Digite seu nome" required >
+           </p>
+
+           <p>
+           <label for="nome">Voce é um desenvolvedor?</label>
+           <input type="checkbox" name="desenvolvedor" checked required>
+          </p>
+            
+          <p>
+           <label for="genero">Feminino</label>
+           <input type="radio" name="genero">
+
+           <label for="genero">Masculino</label>
+           <input type="radio" name="genero">
+        </p>
+
+        <p>
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" name="data" value="2024-10-15">
+        </p>
+
+        <p>
+            <label for="data-hora">Data e Hora</label>
+            <input type="datetime-local" name="data-hora" value="2024-10-15T19:55">      
+        </p>
+
+        <p>
+            <label for="hora">Hotrário</label>
+            <input type="time" name="hora" value="20:00:10">
+        </p>
+        <p>
+            <label for="cor">Cor preferida:</label>
+            <input type="color" name="cor" value="#ff0000">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+        </p>
+        <p>
+            <label for="foto">Coloque sua foto</label>
+            <br>
+            <input type="file" name="foto" accept=".pdf" multiple>
+
+        </p>
+
+        <p>
+            <label for="idade">Digite a sua idade:</label>
+            <input type="number" name="idade" min="0" max="99" step="2">
+        </p>
+
+        <p>
+            <label for="senha">Digite a sua senha:</label>
+            <input type="password" name="senha" >
+
+        <p>
+            <label for="range">Range:</label>
+            <input type="range" name=" range" min="0" max="10">
+        </p>
+        <p>
+            <label for="site">Digite o site aqui:</label>
+            <input type="url" name="site" placeholder="www.exempli.com.br">
+        </p>
+        <p>
+            <label for="busca">Busca</label>
+            <input type="search" name="busca" placeholder=" minha dúvida é:">
+        </p>
+
+        <p>
+            <label for="Selec">Selecione uma das opções:</label>
+                <select name=" select">
+                    <option value="camaro">Camaro</option>
+                    <option value="virtus">Virtus</option>
+                </select>
+
+        <p>
+            <label for="textogrande"></label>
+            <textarea name="textogrande" rows="5" cols="3"></textarea>
+        </p>
+
+        </p>
+        <br>
+        <p>
+           <button type="submit">Enviar</button>
+           <button type="reset">Limpar</button>
+        </p>
+    </form>
+</body>
+</html>

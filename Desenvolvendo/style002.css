@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pai .um~.dois{
+    background-color: red;
+}
+.pai :nth-child(1){
+    background-color: green;
+}
+
+[meu-atributo="erro"]{
+    background-color: orange;
+}
+
+[meu-atributo~="nao-erro"]{
+    background-color: yellow;
+}
+
+[checked]{
+    width: 50px;
+    height: 50px;
+}

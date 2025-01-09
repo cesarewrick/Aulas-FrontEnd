@@ -1,0 +1,66 @@
+/* A primeira linha de todo elemento <p>.
+p::first-line {
+  color: blue;
+  text-transform: uppercase;
+} */
+
+/* A primeira letra de todo elemento <p>. */
+/* p::first-letter {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+} */
+
+/* Adiciona uma seta após os links */
+/* ul li::after {
+  content: "→";
+  background: red;
+  color: white;
+  display: block;
+} */
+
+/* ul li::before {
+  content: "→";
+  background: red;
+  color: white;
+  display: block;
+} */
+
+/* p::first-line{
+  background: red;
+}
+
+p::first-letter{
+  font-size: 50px;
+  display: block;
+  float: left;
+}
+
+p::selection{
+  background: black;
+  color: white;
+}
+
+input {
+  margin-top: 0.5rem;
+}
+
+input::placeholder {
+  font-weight: bold;
+  opacity: 10;
+  color: red;
+}
+
+li::marker {
+  content: '✝ ';
+  font-size: 1.2em;
+  color: red;
+  display: solid;
+} */
+
+
+::spelling-error{
+  text-decoration: wavy blue underline;
+  color: red;
+  background-color: red;
+}

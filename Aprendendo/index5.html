@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Quisquam mollitia itaque dolore harum! Ut iste exercitationem repellendus,
+          voluptate corrupti ab veniam hic cumque aperiam cupiditate quam vero repudiandae,
+           quibusdam repellat.</p>
+
+           <!-- tabela-->
+    <table>
+        <!--cria um titulo para a tabela-->
+        <!-- com ess style o caption vai para baixo, escolher os lados e etc
+         style="caption-side: bottom; text-align: right;"-->
+        <caption >Uma discrição na tabela</caption>
+        <!-- cabeça-->
+        <thead>
+            <!-- linha-->
+            <tr>
+                <!-- coluna-->
+                <th> Titulo 1</th>
+                <th> Titulo 2</th>
+                <th> Titulo 3</th>
+                <th> Titulo 4</th>
+
+            </tr>
+        </thead> 
+        <!-- td table data (th seria a mesma coisa)-->
+         <!--colspan="2" coloca a classe em mais de um espaçp, vc escolhe-->
+        <tbody>
+            <td> Corpo 1</td>
+            <td colspan="2"> Corpo 2</td>
+            <td> Corpo 3</td>
+          <!--<td> Corpo 4</td>-->  
+
+        <tr>
+            <td> Corpo 1</td>
+            <td rowspan="2"> Corpo 2</td>
+            <td> Corpo 3</td>
+            <td> Corpo 4</td>
+        </tr>
+
+        <tr>
+            <td> Corpo 1</td>
+            <td > Corpo 2</td>
+            <td> Corpo 3</td>
+           <!--<td> Corpo 4</td>--> 
+        </tbody>
+        <!-- roda pé-->
+        <tfoot>
+            <tr>
+                <td>
+                    roda pé 1
+                </td>
+                <td>
+                    roda pé 2
+                </td>
+                <td>
+                    roda pé 3
+                </td>
+                <td>
+                    roda pé 4
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+ <!-- na borda voce escolhe a expessura , a tipo de linha(solida) e a cor-->
+ <!-- o padding da um preenchimento interno-->
+  <!-- table{margin: auto;} coloca a tabela para o meio-->
+<style>
+    
+    tr, th, td{
+       
+        border: 1px solid #210505; 
+        padding: 10px;
+    } 
+
+    table{
+        margin: auto; 
+        background-color: blue;
+    } 
+
+</style>
+</html>

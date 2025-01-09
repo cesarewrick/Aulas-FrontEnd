@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="#" method="GET">
+    <section>
+        <h1>Formulário</h1>
+        <p>Dados Pessoais:</p>
+    </section>
+    <section>
+       <div class=" dados">
+        <p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome " required>
+        </p>
+        <p>
+            <label for="endereço">Endereço:</label>
+            <input type="text" name="endereço" placeholder=" Digite aqui"required>
+        </p>
+        <p>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" placeholder="Digite aqui" required>
+        </p>
+        <p>
+            <label for="estado">Estado</label> 
+            <select id="estado" name="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+
+         </p>
+        </div>
+        <br>
+        
+        <div class="pessoais">
+        <section>
+            <h3>Dados Profissionais</h3>
+            <p>Natureza do Cargo:</p>
+            <p>
+                <label for="cargo">Geréncia</label>
+                <input type="radio" name="cargo">
+
+                <label for="cargo">Funcionário</label>
+                <input type="radio" name="cargo">
+
+                <label for="cargo">Administrativo</label>
+                <input type="radio" name="cargo">
+
+                <label for="cargo">Jurídico</label>
+                <input type="radio" name="cargo">
+                <br>
+                <br>
+
+                <h3>Ária de Interesse </h3>
+
+                <label for="nome">Computação</label>
+                <input type="checkbox" name="nome" >
+
+                <label for="nome">Biologia</label>
+                <input type="checkbox" name="nome" >
+
+                <label for="nome">Meio Ambiente</label>
+                <input type="checkbox" name=" nome" >
+
+                <label for="nome">Emgenharia</label>
+                <input type="checkbox" name="nome" >
+
+                <label for="nome">História</label>
+                <input type="checkbox" name="nome" >
+        
+            </p>
+        </section>
+        <section>
+            <label for="curriculo">Mini-curriculo:</label>
+
+            <label for="textogrande"></label>
+            <textarea name="textogrande" rows="10" cols="30"></textarea>
+        </section>
+        <section>
+            <button type="submit"> Enviar</button>
+            <button type="reset"> Limpar</button>
+        </section>
+    </div>
+
+    
+    </section>
+
+
+
+
+
+</form>
+
+</body>
+<style>
+    .dados{ 
+        border: 2px solid black;
+    }
+    .pessoais{
+        border: 2px solid black;
+    }
+</style>
+</html>

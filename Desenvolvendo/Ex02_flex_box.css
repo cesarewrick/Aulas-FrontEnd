@@ -1,0 +1,36 @@
+.flex-container{
+    display: inline flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 80%;
+    height: 30px;
+    
+}
+
+.flex-item{
+    margin: 30px;
+
+}
+
+.w3{
+   
+    color: green;
+}
+
+.flex-item2{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.flex-log{
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+
+}
+
+.flex-container2{
+    display: flex;
+    justify-content: center;
+}

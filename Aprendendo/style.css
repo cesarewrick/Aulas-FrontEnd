@@ -1,0 +1,26 @@
+.section-one{
+    background: deeppink;
+    border: 5px solid black; 
+    width: 200px;
+    height: 150px;
+    padding: 15px;
+    background-image: url(https://th.bing.com/th/id/OIP.zu2mrH43_Dim9JsNSXCz6AHaED?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center center;
+    margin: 30px;
+}
+
+.section-two{
+    background: cyan;
+    border-bottom-width: 10px;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    padding: 10px 20px;
+
+    
+
+}
