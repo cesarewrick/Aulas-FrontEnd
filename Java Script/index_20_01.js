@@ -1,4 +1,4 @@
-const inputTarefa = document.querySelector('.input-tarefa')
+const inputTarefa = document.querySelector('.input-tarefas')
 const btnTarefa = document.querySelector('.btn-tarefa')
 const tarefas = document.querySelector('.tarefas')
 
@@ -66,9 +66,6 @@ document.addEventListener('click', function(e){
 
 function adicionaTarefasSalvas(){
     const tarefas = localStorage.getItem('tarefas')
-
-    if (!tarefas) return
-    
     const listaDeTarefas = JSON.parse(tarefas)
     
     for (let tarefa of listaDeTarefas){
