@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form_01.css">
+    <title>FichaCadastro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form id="registration" action="">
+            <div id="nameError" class="error"> Mínimo 3 (trÊs) letras!</div>
+            <input type="text" id="name" placeholder="Digite seu nome!" required>
+            <input type="date" id="date" placeholder="Data de nascimento">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Senha">
+            <div id="passwordError" class="error">A senha precisa ser identica!</div>
+            <input type="password" id="confPassword" placeholder="Confirmação">
+            <button type="submit">Confirmar</button>
+        </form>
+    </div>
+</body>
+<script src="form_01.js"></script>
+</html>
